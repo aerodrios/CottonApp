@@ -1,0 +1,83 @@
+{
+  "configVersion": 1,
+  "timestamp": 1627620364932,
+  "index": "https://aerodrios.github.io/CottonApp/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://aerodrios.github.io/CottonApp/favicon.ico",
+        "https://aerodrios.github.io/CottonApp/index.html",
+        "https://aerodrios.github.io/CottonApp/main.js",
+        "https://aerodrios.github.io/CottonApp/manifest.webmanifest",
+        "https://aerodrios.github.io/CottonApp/polyfills.js",
+        "https://aerodrios.github.io/CottonApp/runtime.js",
+        "https://aerodrios.github.io/CottonApp/styles.css",
+        "https://aerodrios.github.io/CottonApp/vendor.js"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://aerodrios.github.io/CottonApp/assets/icons/icon-128x128.png",
+        "https://aerodrios.github.io/CottonApp/assets/icons/icon-144x144.png",
+        "https://aerodrios.github.io/CottonApp/assets/icons/icon-152x152.png",
+        "https://aerodrios.github.io/CottonApp/assets/icons/icon-192x192.png",
+        "https://aerodrios.github.io/CottonApp/assets/icons/icon-384x384.png",
+        "https://aerodrios.github.io/CottonApp/assets/icons/icon-512x512.png",
+        "https://aerodrios.github.io/CottonApp/assets/icons/icon-72x72.png",
+        "https://aerodrios.github.io/CottonApp/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://aerodrios.github.io/CottonApp/assets/icons/icon-128x128.png": "4f8c138fede7f336f06c7e61f2a68af17e2b4056",
+    "https://aerodrios.github.io/CottonApp/assets/icons/icon-144x144.png": "2f615bafeac3f307e8e7d28ab1335b9055bbc6a0",
+    "https://aerodrios.github.io/CottonApp/assets/icons/icon-152x152.png": "9a660ec8666c4738c9e873d8adb532ae9901bce7",
+    "https://aerodrios.github.io/CottonApp/assets/icons/icon-192x192.png": "8bf3c7be5f9b2345d17c536a370fc5b75fd576a4",
+    "https://aerodrios.github.io/CottonApp/assets/icons/icon-384x384.png": "279e053dc6c87b94f6db776ea687225d7172d962",
+    "https://aerodrios.github.io/CottonApp/assets/icons/icon-512x512.png": "2e92f58a998e395fcf4666e2d01960151c7bdd4c",
+    "https://aerodrios.github.io/CottonApp/assets/icons/icon-72x72.png": "de6ce90f8fe1045716cc9e4b86bb1022f565a92c",
+    "https://aerodrios.github.io/CottonApp/assets/icons/icon-96x96.png": "6d5946375ec761e003df5ce9d10070f11a1fad3c",
+    "https://aerodrios.github.io/CottonApp/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://aerodrios.github.io/CottonApp/index.html": "0424294f10694a68f50c7fac8180a80069e2433e",
+    "https://aerodrios.github.io/CottonApp/main.js": "17a047efe03b11def64d6aa83741dd9210dd7b68",
+    "https://aerodrios.github.io/CottonApp/manifest.webmanifest": "50fc10ffd410c823676a808eb58d3d21453a0a87",
+    "https://aerodrios.github.io/CottonApp/polyfills.js": "5d840b16e922288b837f33bfa37414801a483e7f",
+    "https://aerodrios.github.io/CottonApp/runtime.js": "154c277c076cfc8ee335df5d9349395c6bf58db5",
+    "https://aerodrios.github.io/CottonApp/styles.css": "42749bafbc5d47933df5e272c870fb952f703446",
+    "https://aerodrios.github.io/CottonApp/vendor.js": "87845ae4a3d2cf44f615ab1dfb2fa77a10a6721b"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
